@@ -25,9 +25,9 @@ if QT_LIB == 'PySide':
 elif QT_LIB == 'PySide2':
     from ScatterPlotSpeedTestTemplate_pyside2 import Ui_Form
 #elif QT_LIB == 'PyQt5':
-    from ScatterPlotSpeedTestTemplate_pyqt5 import Ui_Form
-else:
-    from ScatterPlotSpeedTestTemplate_pyqt import Ui_Form
+#    from ScatterPlotSpeedTestTemplate_pyqt5 import Ui_Form
+#else:
+#    from ScatterPlotSpeedTestTemplate_pyqt import Ui_Form
 
 win = QtGui.QWidget()
 win.setWindowTitle('pyqtgraph example: ScatterPlotSpeedTest')
