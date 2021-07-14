@@ -10,7 +10,8 @@ For testing rapid updates of ScatterPlotItem under various conditions.
 
 ## Add path to library (just for examples; you do not need this)
 # import initExample
-# import pyqtgraph.examples
+
+
 from pyqtgraph.Qt import QtGui, QtCore, QT_LIB
 import numpy as np
 import pyqtgraph as pg
